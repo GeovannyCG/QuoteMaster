@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+    <persona>
+        <nombre>John Doe</nombre>
+        <edad>30</edad>
+        <ciudad>New York</ciudad>
+    </persona>
+    <persona>
+        <nombre>Jane Doe</nombre>
+        <edad>28</edad>
+        <ciudad>Los Angeles</ciudad>
+    </persona>
+</datos>
