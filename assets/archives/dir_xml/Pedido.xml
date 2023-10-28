@@ -1,0 +1,22 @@
+<pedido>
+    <cliente>
+        <nombre>Nombre del Cliente</nombre>
+        <direccion>Dirección del Cliente</direccion>
+        <telefono>Teléfono del Cliente</telefono>
+        <email>email@cliente.com</email>
+    </cliente>
+    <elementos>
+        <elemento>
+            <nombre>Paredes</nombre>
+            <cantidad>1000</cantidad>
+        </elemento>
+        <elemento>
+            <nombre>Techo</nombre>
+            <cantidad>500</cantidad>
+        </elemento>
+        <elemento>
+            <nombre>Pisos</nombre>
+            <cantidad>800</cantidad>
+        </elemento>
+    </elementos>
+</pedido>

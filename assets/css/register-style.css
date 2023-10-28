@@ -1,0 +1,33 @@
+
+
+#main-wrapper-register {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-content: center;
+    padding: 20px 20px;
+    background-color: rgba(219, 219, 219, 0.274);
+}
+
+#container-register {
+    width: 850px;
+    height: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.37);
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+nav {
+    background-color: #3498db;
+}
+
+#button-help {
+    background: none;
+    border: none;
+}
+
+.button-info {
+    background: none;
+    border: none;
+}

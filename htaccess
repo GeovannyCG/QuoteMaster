@@ -1,0 +1,29 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^Login$ views/login-view.php
+RewriteRule ^Register$ views/register-view.php
+RewriteRule ^SendInformation$ php/register-action.php
+RewriteRule ^Thanks$ views/finish.php [QSA]
+
+RewriteRule ^Acces$ controllers/login-controller.php
+RewriteRule ^Logout$ php/logout-action.php
+RewriteRule ^Home$ controllers/home-controller.php
+RewriteRule ^checkPrices$ controllers/edit-controller-home.php
+
+RewriteRule ^ExecuteAction$ php/actions-action.php [QSA]
+RewriteRule ^UpdatePrices$ php/update-prices-action.php [QSA]
+RewriteRule ^EditPrice$ controllers/update-controller-home.php [QSA]
+RewriteRule ^DropPrice$ php/delete-prices-action.php [QSA]
+
+RewriteRule ^OrderManager$ controllers/pedidos-controller-home.php
+
+#Ha estos hay que agregarles el controller
+RewriteRule ^Supplier$ controllers/provee-pedidospro-controller.php [QSA]
+RewriteRule ^Orders$ controllers/provee-pedixsurtir-controller.php [QSA]
+RewriteRule ^Schedule$ controllers/provee-program-controller.php [QSA]
+RewriteRule ^ProfileSupplier$ controllers/provee-ver-perfil-controller [QSA]
+
+#Aqui van las URLS amigables para los archivos de actions tanto para admin/conta y proveedor
+RewriteRule ^ActionPedidosAC$ php/pedidos-ac-action.php [QSA]
+RewriteRule ^ActionPedidosP$ php/pedidos-proveedor-action.php [QSA]
